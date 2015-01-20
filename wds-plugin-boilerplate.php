@@ -172,6 +172,6 @@ if ( ! class_exists( 'WDS_Plugin_Boilerplate' ) ) {
 
 	}
 
-	$_GLOBALS['sample_plugin'] = new WDS_Plugin_Boilerplate;
-	$_GLOBALS['sample_plugin']->do_hooks();
+	$_GLOBALS['wds_plugin_boilerplate'] = new WDS_Plugin_Boilerplate;
+	$_GLOBALS['wds_plugin_boilerplate']->do_hooks();
 }

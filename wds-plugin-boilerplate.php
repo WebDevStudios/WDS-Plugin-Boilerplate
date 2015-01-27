@@ -34,7 +34,7 @@ if ( ! class_exists( 'WDS_Plugin_Boilerplate' ) ) {
 			load_plugin_textdomain( '_s', false, dirname( $this->basename ) . '/languages' );
 
 			// Activation/Deactivation Hooks
-			register_activation_hook(   __FILE__, array( $this, 'activate' ) );
+			register_activation_hook( __FILE__, array( $this, 'activate' ) );
 			register_deactivation_hook( __FILE__, array( $this, 'deactivate' ) );
 
 			// Make sure we have our requirements, and disable the plugin if we do not have them.
